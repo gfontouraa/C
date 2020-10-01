@@ -7,7 +7,7 @@ int numero_escolhido, resto, soma_numeros=0;
 
 do{
     printf("Escolha um numero inteiro maior que 0: ");
-    scanf("%i", &numero_escolhido);
+    scanf("%d", &numero_escolhido);
 
 }while(numero_escolhido < 0);
 
